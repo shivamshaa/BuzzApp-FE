@@ -1,0 +1,104 @@
+.topbarContainer{
+    height: 50px;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 2px;
+    display: flex;
+    align-items: center;
+    position: sticky;
+    justify-content: space-between;
+    top: 0;
+    z-index: 999;
+    -webkit-box-shadow: 0px 0px 16px -8px rgba(0,0,0,0.68); 
+    box-shadow: 0px 0px 16px -8px rgba(0,0,0,0.68);
+    
+}
+.topbarLeft a{
+    color: rgb(124, 74, 218);
+
+    padding: 0.4rem;
+    font-weight: bold;
+}
+
+.topbarLeft{
+    color: rgb(124, 74, 218);
+
+}
+.logo img{
+    margin-left: 1rem ;
+    width: 4rem;
+    height: 3rem;
+}
+.topbarRight{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: rgb(0, 0, 0);
+
+}
+.topbarRight a{
+    color: rgb(0, 0, 0);
+
+
+}
+.topbarIcons{
+    display: flex;
+
+}
+.topbarIconItem{
+    display: flex;
+    align-items: center;
+    margin-right: 2rem;
+    cursor: pointer;
+    position: relative;
+    /* text-shadow: 2px 2px 5px rgb(41, 1, 41) !important; */
+}
+.topbarIconItem img{
+    width: 1.8rem;
+    height:1.8rem;
+    margin-right: 0.5rem;
+    border-radius: 50%;
+    object-fit: cover;
+
+}
+.topbarIconItem:hover{
+    color: rgb(0, 0, 0);
+}
+.topbarIconBadge{
+    width: 15px;
+    height: 15px;
+    background-color: red;
+    border-radius: 50%;
+    color: rgb(124, 74, 218);
+
+    position: absolute;
+    top: -5px;
+    right: -5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 12px;
+}
+ 
+.dropdown-content {
+    display: block;
+    position: absolute;
+    margin-left: -8rem;
+    /* min-height: 6rem; */
+    border-radius: 0.7rem;
+    /* padding-top: 1rem;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem; */
+    background-color: rgb(194, 140, 255);
+    width: 15rem;
+    z-index: 9;
+    -webkit-box-shadow: 0px 0px 16px -8px rgba(0,0,0,0.68); 
+    box-shadow: 0px 0px 16px -8px rgba(0,0,0,0.68);
+  }
+  .tobarIconItemLogout{
+      display: flex;
+      align-items: center;
+      gap: 0.4rem;
+  }
+  
+

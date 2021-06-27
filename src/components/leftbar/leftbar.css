@@ -1,0 +1,134 @@
+.leftbar{
+    flex: 3;
+    position: sticky;
+    top: 4.3rem;
+    height: 50rem;
+    max-width: 20rem;
+
+}
+.leftbarWrapper{
+    padding: 1.3rem;
+    display: flex;
+    flex-flow: column;
+
+}
+.leftbarWrapper li{
+    list-style-type: none;
+}
+
+.leftbarWrapper ul{
+    margin-left: 0;
+    padding: 0;
+}
+.leftbarCard{
+    background-color: rgb(255, 255, 255);
+    height: 12.5rem;
+    border-radius: 0.5rem;
+    display: flex;
+    -webkit-box-shadow: 0px 0px 16px -8px rgba(0,0,0,0.68); 
+    box-shadow: 0px 0px 16px -8px rgba(0,0,0,0.68);
+    flex-flow: column;
+}
+.banner{
+    border-radius: 0.5rem;
+    height: 3.75rem;
+    /* background-color: rgb(135, 39, 180); */
+    background: linear-gradient(45deg,#bb95e5,#6406df);
+
+}
+.profileInfo{
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    margin-bottom: 0.7rem;
+}
+.profileInfoItem p{
+    font-size: 0.8rem;
+}
+
+.profileInfoItem img{
+    margin-top: -2rem;
+    width: 3.5rem;
+    height: 3.5rem;
+    border-radius: 50%;
+    object-fit: cover;
+    /* background: linear-gradient(45deg,#bb95e5,#6406df); */
+    background-color: rgb(151, 151, 151);
+}
+
+.userInfo{
+    display: flex;
+    align-items: center;
+    color: rgb(83, 83, 83);
+    
+    justify-content: space-evenly;
+}
+
+.userInfo li:nth-child(2){
+    border-right: 1px solid grey;
+
+}
+.userInfoItem{
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+}
+.userInfoItem h4{
+    color: rgb(74, 23, 168);
+
+}
+.userInfoItem a{
+    color: rgb(74, 23, 168);
+}
+.leftbarListWrapper{
+    margin-top: 1rem;
+    padding: 1rem;
+    background-color: rgb(255, 255, 255);
+    border-radius: 5px;
+    display: flex;
+    -webkit-box-shadow: 0px 0px 16px -8px rgba(0,0,0,0.68); 
+    box-shadow: 0px 0px 16px -8px rgba(0,0,0,0.68);
+    flex-flow: column;
+    justify-content: space-between;
+    max-height: 25rem;
+    overflow: scroll;
+}
+
+
+.leftbarListWrapper::-webkit-scrollbar {
+    width: 0.5em;
+  } 
+.leftbarListWrapper::-webkit-scrollbar-thumb {
+    background : linear-gradient(#bb95e5,#6406df);
+    border-radius: 1rem;
+  }
+.leftbarListWrapper{
+    overflow-x: hidden;
+}
+
+.leftbarListWrapper h4{
+    margin-bottom: 1rem;
+}
+.leftbarList{ 
+    margin-bottom: 1rem;
+    border-bottom: 1px solid rgb(227, 186, 245);
+
+}
+.leftbarList:nth-child(3){
+    border-bottom: 0px;
+}
+.leftbarList li{
+    font-size: 0.8rem;
+}
+.leftbarListItem{
+    display: flex;
+    align-items: center;
+    margin-bottom: 0.5rem;
+}
+.leftbarIcon{
+    margin-right: 0.5rem;
+    font-size: 0.9rem !important;
+}
+.colored{
+    color: rgb(74, 0, 170);
+}

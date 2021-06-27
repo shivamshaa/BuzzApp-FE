@@ -1,0 +1,138 @@
+.feed{
+    flex:5.5;
+}
+.feedWrapper{
+    padding: 1rem;
+}
+.switchWrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 8rem;
+    height: 2rem;
+    margin-bottom: 1rem;
+    border-radius: 1.7rem;
+    -webkit-box-shadow: 0px 0px 16px -8px rgba(0,0,0,0.68); 
+    box-shadow: 0px 0px 16px -8px rgba(0,0,0,0.68);
+}
+  
+  /* Hide default HTML checkbox */
+.switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+  
+  /* The slider */
+.slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #bb95e5;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+  
+.slider:before {
+    position: absolute;
+    content: "";
+    height: 1.6rem;
+    width: 1.6rem;
+    left: 4px;
+    bottom: 3px;
+    background-color: #dac6f0;
+    opacity: 0.8;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+  
+input:checked + .slider {
+    background-color: #6406df;
+}
+  
+input:focus + .slider {
+    box-shadow: 0 0 1px #7a2cf8;
+}
+  
+input:checked + .slider:before {
+    -webkit-transform: translateX(5.8rem);
+    -moz-transform: translateX(5rem);
+    transform: translateX(5.8rem);
+}
+.switch span{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-transform: uppercase;
+      letter-spacing: 0.5rem;
+      font-size: 1rem;
+      color: white;
+}
+  /* Rounded sliders */
+.slider.round {
+    border-radius: 34px;
+}
+  
+.slider.round:before {
+    border-radius: 50%;
+}
+.verifyButton{
+    display: block;
+    margin: 0 auto;
+    background-color: transparent;
+    border: 1px solid rgb(243, 109, 149);
+    color: rgb(243, 109, 149);
+    padding: 0.6rem;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    width: 10rem;
+    text-transform: uppercase;
+    letter-spacing: 1rem;
+    margin: 0 auto;
+}
+.verifyButton:hover{
+    background-color: rgb(243, 109, 149);
+    border: none;
+    color: white;
+}
+.verifyButton:focus{
+    outline: none;
+}
+.verifyCard{
+    display: inline-block;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 9;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-flow: column;
+    right: 0;
+    width: 20rem;
+    -webkit-box-shadow: 0px 0px 16px -8px rgba(0,0,0,0.68); 
+    box-shadow: 0px 0px 16px -8px rgba(0,0,0,0.68);
+    height: 20rem;
+    margin: auto;
+    background-color: #ffffff;
+    backdrop-filter: blur(5px);
+}
+.verifyCard input{
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid rgb(185, 98, 226);
+    width: 80%;
+    margin: 0 auto;
+    padding: 0.3rem;
+}
+.verifyCard input:focus{
+    outline: none;
+}

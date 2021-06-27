@@ -1,0 +1,51 @@
+.notificationWrapper{
+    padding: 1rem;
+    background-color: rgb(253, 253, 253);
+    border-radius: 0.7rem;
+    margin: 0.2rem;
+    display: flex;
+    flex-flow: column;
+    gap: 0.5rem;
+}
+
+.ptag{
+    color: black;
+
+}
+.notificationIcon{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.accept{
+    padding: 1rem;
+    background-color: transparent;
+    border: 1px solid rgb(167, 109, 243);
+    color: rgb(167, 109, 243);
+    padding: 0.4rem;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    width: 5rem;
+}
+.accept:hover{
+    background-color: rgb(167, 109, 243);
+    color: white;
+    border: none;
+}
+
+.reject{
+    padding: 1rem;
+    background-color: transparent;
+    border: 1px solid rgb(167, 109, 243);
+    color: rgb(167, 109, 243);
+    padding: 0.4rem;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    width: 5rem;
+}
+.reject:hover{
+    background-color: rgb(167, 109, 243);
+    color: white;
+    border: none;
+}

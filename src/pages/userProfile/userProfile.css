@@ -1,0 +1,112 @@
+.userContainer{
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin: 0 auto;
+    gap: 1rem;
+
+}
+a{
+    text-decoration: none;
+}
+.userProfile{
+    margin-top: 1.3rem;
+    border-radius: 0.5rem;
+    flex: 6;
+    display: flex;
+    flex-flow: column;
+    height: 25rem;
+    background-color: rgb(255, 255, 255);
+    gap:1rem;   
+    -webkit-box-shadow: 0px 0px 16px -8px rgba(0,0,0,0.68); 
+    box-shadow: 0px 0px 16px -8px rgba(0,0,0,0.68);
+}
+.userBanner{
+    height: 8rem;
+    background: linear-gradient(45deg,#bb95e5,#6406df);
+    border-radius: 0.5rem;
+}
+.userProfileInfo{
+    display: flex;
+    flex-flow: column;
+    justify-content: space-between;
+    margin-left: 1.5rem;
+    gap:0.5rem;
+}
+.userProfileInfo img{
+    height: 8rem;
+    width: 7rem;
+    background: linear-gradient(45deg,#b5dcfc,#91dcff);
+    margin-top: -5rem;
+    border-radius: 0.5rem;
+    object-fit: cover;
+
+}
+.userContainer ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.userDetails{
+    display: flex;
+}
+.userDetails li{
+    border-right: 1px solid lightgray;
+    padding: 0 0.5rem 0 0.5rem;
+}
+.userDetails li:nth-child(4){
+    border-right: none;
+}
+.userDetails li:nth-child(1){
+    margin-left: -0.5rem;
+}
+.userProfileAction{
+    display: flex;
+    gap: 1rem;
+    margin-left: 1.5rem;
+}
+.addFriend{
+    background-color: transparent;
+    border: 1px solid rgb(167, 109, 243);
+    color: rgb(167, 109, 243);
+    padding: 0.4rem;
+    border-radius: 0.5rem;
+    cursor: pointer;
+}
+.addFriend:hover{
+    background-color: rgb(167, 109, 243);
+    color: white;
+    border: none;
+}
+.addFriendItem{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1px;
+    gap: 0.3rem;
+}
+.visitWebsite{
+    background-color: transparent;
+    border: 1px solid rgb(167, 109, 243);
+    color: rgb(167, 109, 243);
+    padding: 0.4rem;
+    border-radius: 0.5rem;
+    cursor: pointer;
+}
+.visitWebsite:hover{
+    background-color: rgb(167, 109, 243);
+    color: white;
+    border: none;
+
+}
+.visitWebsiteItem{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1px;
+    gap: 0.3rem;
+
+}
+.suggestions{
+    flex: 2;
+}

@@ -1,0 +1,105 @@
+.post{
+    width: 100%;
+    border-radius: 0.5rem;
+    -webkit-box-shadow: 0px 0px 16px -8px rgba(0,0,0,0.68); 
+    box-shadow: 0px 0px 16px -8px rgba(0,0,0,0.68);
+    margin: 2rem 0;
+}
+
+.postWrapper{
+    padding:1rem
+}
+.postTop{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.postTopLeft{
+    display: flex;
+    align-items: center;
+}
+.postProfileImg{
+    width: 2rem;
+    height: 2rem;
+    border-radius: 50%;
+    object-fit: cover;
+    background: linear-gradient(45deg,#bb95e5,#6406df);
+
+}
+.postUsername{
+    font-size: 1rem;
+    font-weight: 500;
+    margin: 0 10px;
+}
+.postDate{
+    font-size: 0.7rem;
+}
+.postTopRight{
+    color: rgb(224, 45, 120);
+    cursor: pointer;
+    
+}
+.postCenter{
+    margin: 1rem 0;
+    display: flex;
+    flex-flow: column;
+}
+
+.postCenterImg{
+    margin-top: 1.4rem;
+    width: 100%;
+    max-height: 31rem;
+    object-fit: contain;
+}
+.postBottom{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.postBottomLeft{
+    display: flex;
+    align-items: center;
+}
+.likeIcon{
+    color: rgb(248, 73, 73);
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+.likeCounter{
+    font-size: 0.8rem;
+}
+.dislikeIcon{
+    color: rgb(114, 114, 241);
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+.dislikeCounter{
+    font-size: 0.8rem;
+}
+.postBottomRight{
+    display: flex;
+    align-items: center;
+    border-bottom: 1px dashed grey;
+
+}
+.postCommentIcon{
+    color: rgb(158, 45, 224);
+    cursor: pointer;
+}
+.comment{
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+}
+.commentInput{
+    border: none;
+    width: 80%;
+}
+.commentInput:focus{
+    outline: none;
+    border-bottom: 1px solid grey;
+}
+.postCommentIconSend{
+    cursor: pointer;
+}
